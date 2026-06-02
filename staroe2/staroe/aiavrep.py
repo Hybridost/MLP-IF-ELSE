@@ -16,7 +16,7 @@ class UserAccount:
 
 user1 = UserAccount("mail", "email", "password")
 print(user1.email)
-print(user1.__password)
+# print(user1.__password)
 pw = input("Введите новый пароль: ")
 print(user1.set_password(pw))
 

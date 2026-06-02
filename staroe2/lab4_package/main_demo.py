@@ -24,8 +24,8 @@ from my_package.strings import reverse_string
 result5 = power(2, 3)
 print(f"   power(2, 3) = {result5}")
 
-result6 = reverse_string("Yarik")
-print(f"   reverse_string('Yarik') = '{result6}'")
+result6 = reverse_string("Roma")
+print(f"   reverse_string('Roma') = '{result6}'")
 
 
 # Способ 3: Импорт с псевдонимом

@@ -20,20 +20,20 @@ print(book3.get_info())
 
 #ЗАДАНИЕ 2
 
-# class Circle:
-#     def __init__(self, radius):
-#         self.radius = radius
+class Circle:
+    def __init__(self, radius):
+        self.radius = radius
     
-#     def get_radius(self):
-#         return self.radius
+    def get_radius(self):
+        return self.radius
     
-#     def set_radius(self, new_radius):
-#         self.radius = new_radius
+    def set_radius(self, new_radius):
+        self.radius = new_radius
 
-# if __name__ == "__main__":
+if __name__ == "__main__":
     
-#     circle1 = Circle(5.0)
-#     print(f"Начальный радиус: {circle1.get_radius()}")
+    circle1 = Circle(5.0)
+    print(f"Начальный радиус: {circle1.get_radius()}")
 
-#     circle1.set_radius(7.5)
-#     print(f"Новый радиус: {circle1.get_radius()}")
+    circle1.set_radius(7.5)
+    print(f"Новый радиус: {circle1.get_radius()}")
